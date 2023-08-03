@@ -1,11 +1,10 @@
-create table buku
+create table program_perpustakaan.inventory_lab
 (
-    id        int auto_increment
+    id           int auto_increment
         primary key,
-    nama_buku varchar(50) null,
-    penulis   varchar(50) null,
-    penerbit  varchar(50) null,
-    jumlah    int         null
+    nama_barang  varchar(50) null,
+    jenis_barang varchar(50) null,
+    lokasi       varchar(50) null,
+    status       varchar(50) null
 );
-
 
