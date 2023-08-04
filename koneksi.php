@@ -1,10 +1,10 @@
 <!-- Pertemuan 10 -->
 
 <?php
-    $servername = "localhost:3306"; 
+    $servername = "localhost"; 
     $username = "root";
-    $password = "khadiq123"; 
-    $dbname = "program_perpustakaan";
+    $password = ""; 
+    $dbname = "inventory";
 
     // Create connection
     $koneksi = mysqli_connect($servername, $username, $password, $dbname); 
